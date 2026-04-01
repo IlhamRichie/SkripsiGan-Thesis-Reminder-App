@@ -18,8 +18,22 @@ export default function Home() {
 
   const triggerNotif = () => {
     if ('Notification' in window && Notification.permission === 'granted') {
-      new Notification('💀 WEY SKRIPSI WEY!', {
-        body: 'Lu mau DO ngab? Ayo buka laptopnya sekarang! Dospem udah nungguin tuh.',
+      // Daftar komen/meme random ala Gen Z 💀
+      const memeList = [
+        "WEY SKRIPSI WEY! Udah sejauh mana ngab? 😭",
+        "Info loker admin slot? Yeuuu kerjain dulu itu Bab 4! 😡",
+        "POV: Lu buka TikTok niatnya 5 menit, eh taunya 5 jam. DOSPEM NUNGGUIN WOY! 🏃‍♂️",
+        "Turu teroooss. Ingat umur ngab, angkatan bawah udah pada wisuda tuh 🤡",
+        "Ketik 1 kata aja hari ini udah dihitung proges kok. Ayo buka Word-nya! ☕",
+        "Minimal bales chat dospem lah, jangan di-ghosting mulu. Berani bener 😭",
+        "Gak papa nangis, yang penting sambil ngetik. GASSS! 🔥"
+      ];
+
+      // Ambil satu kalimat random
+      const randomMeme = memeList[Math.floor(Math.random() * memeList.length)];
+
+      new Notification('🚨 PERINGATAN DARURAT', {
+        body: randomMeme,
         icon: 'https://em-content.zobj.net/source/apple/354/skull_1f480.png'
       });
     } else {

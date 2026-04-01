@@ -26,7 +26,8 @@ export default function Home() {
         "Turu teroooss. Ingat umur ngab, angkatan bawah udah pada wisuda tuh 🤡",
         "Ketik 1 kata aja hari ini udah dihitung proges kok. Ayo buka Word-nya! ☕",
         "Minimal bales chat dospem lah, jangan di-ghosting mulu. Berani bener 😭",
-        "Gak papa nangis, yang penting sambil ngetik. GASSS! 🔥"
+        "Gak papa nangis, yang penting sambil ngetik. GASSS! 🔥",
+        "FURAB Lovers kudu semangat! Ingat, yang penting bukan cepet, tapi selesai! 💪"
       ];
 
       // Ambil satu kalimat random
